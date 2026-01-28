@@ -23,6 +23,7 @@ table, th, td {
 
 th, td {
   padding: 10px;
+  min-width: 200px
 }
 
 th {
