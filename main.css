@@ -21,6 +21,14 @@ main a:hover {
 
 h1 {
   text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+}
+
+h2 {
+  text-decoration: dashed underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
 }
 
 h1, h2 {

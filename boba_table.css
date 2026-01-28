@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+}
+
+table, th, td {
+  border-color: black;
+  border-width: 1px;
+  border-style: outset;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: rgb(205, 232, 241);
+  font-weight: bolder;
+  font-size: large;
+  padding: 8px;
+  text-decoration: underline;
+}
+
+td {
+  font-weight: normal;
+}
