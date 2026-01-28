@@ -1,0 +1,42 @@
+nav, footer {
+  background-color: rgb(205, 232, 241);
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav hr {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+footer hr {
+  margin-top: 0px;
+  margin-bottom: 15px;;
+}
+
+nav a {
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover, nav a.current-page:hover {
+  background-color: rgb(67, 163, 195);
+  color: white;
+}
+
+nav a.current-page {
+  background-color: rgb(25, 116, 140);
+  color: white;
+}
+
+hr {
+  border-width: 3px;
+}
+
+footer p {
+  margin-top: 0px;
+}
