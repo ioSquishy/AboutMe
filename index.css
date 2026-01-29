@@ -1,14 +1,16 @@
 main {
-  margin: 20px;
-  /* margin-left: 40px; */
-
   width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
 
 h1 {
-  margin-left: 5px;
+  text-align: center;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
 }
 
 main div {
@@ -17,7 +19,5 @@ main div {
 
 section {
   width: 100%;
-  padding: 5px;
   border-radius: 8px;
-  margin-block: 10px;
 }

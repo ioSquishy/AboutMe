@@ -4,10 +4,11 @@ header, footer {
   margin-right: auto;
 }
 
-nav, footer {
+header, footer {
   background-color: rgb(205, 232, 241);
   overflow: hidden;
   padding: 10px;
+  padding-bottom: 0px;;
   border-radius: 5px;
 }
 
@@ -16,12 +17,18 @@ nav hr {
   margin-bottom: 0px;
 }
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 footer hr {
   margin-top: 0px;
   margin-bottom: 15px;;
 }
 
 nav a {
+  display: block;
   background-color: aliceblue;
   border-radius: 10px;
   padding: 5px;
