@@ -35,7 +35,7 @@ footer hr {
 
 nav a {
   display: block;
-  background-color: aliceblue;
+  background-color: var(--ternary-color);
   border-radius: 10px;
   padding: 5px;
   text-decoration: none;
@@ -45,6 +45,7 @@ nav a {
 nav a:hover, nav a.current-page:hover {
   background-color: rgb(39, 93, 111);
   color: white;
+  transition: background-color 0.2s ease;
 }
 
 nav a.current-page {
