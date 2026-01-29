@@ -1,3 +1,9 @@
+header, footer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 nav, footer {
   background-color: rgb(205, 232, 241);
   overflow: hidden;
